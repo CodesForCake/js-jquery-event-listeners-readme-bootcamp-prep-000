@@ -18,6 +18,12 @@ function pressIt() {
   })
 }
 
+function submitIt(){
+  $("form").on("submit",function(){
+    alert("")
+  })
+}
+
 $(document).ready(function(){
 
 // call functions here
